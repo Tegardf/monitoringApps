@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\FirebaseController;
 use App\Http\Controllers\MonitoringRecordController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SyncController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -22,6 +24,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/riwayat_monitoring', [MonitoringRecordController::class, 'index'])->name('riwayat_monitoring');
     Route::view('/riwayat_gejala_awal', 'riwayat_gejala_awal')->name('riwayat_gejala_awal');
     Route::view('/bantuan', 'bantuan')->name('bantuan');
+    Route::post('/sync-data', [SyncController::class, 'syncData']);
+    // Route::post('/sync-data', 'SyncController@syncData');
 });
 
 

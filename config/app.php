@@ -123,4 +123,10 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    // 'providers' => [
+    //     // ...
+    //     Kreait\Laravel\Firebase\ServiceProvider::class,
+    //     Illuminate\Filesystem\FilesystemServiceProvider::class,
+    // ]
+
 ];

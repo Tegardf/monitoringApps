@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('br');
             $table->string('indicator');
             // Add more fields as needed
+            $table->string('timestamp');
             $table->timestamps();
         });
     }

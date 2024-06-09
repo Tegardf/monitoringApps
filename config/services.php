@@ -36,9 +36,9 @@ return [
     ],
     'firebase'=>[
         'credentials' => [
-        'file' => storage_path('monitoring-5183a-credential-key.json'),
-    ],
-    'database_url' => 'https://your-firebase-project.firebaseio.com/',
+            'file' => storage_path('monitoring-5183a-firebase-adminsdk-ft0g0-b63fce7d88.json'),
+        ],
+        'database_url' => 'https://monitoring-5183a-default-rtdb.asia-southeast1.firebasedatabase.app/',
     ],
 
 ];

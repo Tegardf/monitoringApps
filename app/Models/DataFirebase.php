@@ -13,7 +13,8 @@ class DataFirebase extends Model
         'gsr',
         'spo',
         'br',
-        'indicator'
+        'indicator',
+        'timestamp',
     ]; // Define fields to be stored
     protected $table = 'firebase_data';
     public $timestamps = true;
