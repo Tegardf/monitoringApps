@@ -6,13 +6,13 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
-
+        
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-color1 flex font-sans">
         <!-- Sidebar -->
-        <div class="w-64 h-screen bg-color1 border-solid border-gray-400 border-r-4 shadow-md">
+        <div class="w-1/6 h-screen bg-color1 border-solid border-gray-400 border-r-4 shadow-md">
             <div class="p-6 pt-10 text-center font-bold text-lg flex justify-center">
                 <a href="{{ route('home') }}">
                     <x-icon.application-logo class="h-16 w-40 text-gray-500" />
@@ -62,7 +62,7 @@
         </div>
         <!-- Main Content -->
         <div class="flex-1 p-10">
-            @yield('content')
+                @yield('content')
         </div>
     </body>
 </html>
