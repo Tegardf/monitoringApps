@@ -1,10 +1,13 @@
 {
     "private": true,
-    "type": "commonjs",
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "start": "pm2 start ecosystem.config.cjs"
+        "start": "pm2 start ecosystem.config.cjs",
+        "stop": "pm2 stop ecosystem.config.cjs",
+        "restart": "pm2 restart ecosystem.config.cjs",
+        "delete": "pm2 delete ecosystem.config.cjs"
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.5.2",
