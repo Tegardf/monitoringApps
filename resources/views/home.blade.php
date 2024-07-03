@@ -8,16 +8,16 @@
             <div class="slider-container relative overflow-hidden w-full m-auto">
                 <div class="slides flex items-center justify-center transition-transform duration-500">
                     <div class="slide w-4/5 box-border bg-white p-6 rounded-lg shadow-md ">
-                        <img src="{{ asset('images/1.png') }}" alt="Device Image" class="w-full block object-cover">
+                        <img src="{{ asset('images/img1.png') }}" alt="Device Image" class="w-full max-h-128 block object-contain">
                     </div>
                     <div class="slide w-4/5 box-border bg-white p-6 rounded-lg shadow-md ">
-                        <img src="{{ asset('images/2.png') }}" alt="Device Image" class="w-full block object-cover">
+                        <img src="{{ asset('images/img2.png') }}" alt="Device Image" class="w-full max-h-128 block object-contain">
                     </div>
                     <div class="slide w-4/5 box-border bg-white p-6 rounded-lg shadow-md ">
-                        <img src="{{ asset('images/3.png') }}" alt="Device Image" class="w-full block object-cover">
+                        <img src="{{ asset('images/img3.png') }}" alt="Device Image" class="w-full max-h-128 block object-contain">
                     </div>
                     <div class="slide w-4/5 box-border bg-white p-6 rounded-lg shadow-md ">
-                        <img src="{{ asset('images/4.png') }}" alt="Device Image" class="w-full block object-cover">
+                        <img src="{{ asset('images/img4.png') }}" alt="Device Image" class="w-full max-h-128 block object-contain">
                     </div>
                 </div>
             </div>

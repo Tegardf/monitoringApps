@@ -6,28 +6,28 @@
     <div class="flex flex-row gap-4">
         <div class="w-3/4 flex flex-col">
             <div class="flex flex-row justify-between">
-                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl">
+                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl hover:scale-110">
                     <div class="flex flex-row gap-6 items-center">
                         <x-icon.heart-logo class="text-black w-12"></x-icon.heart-logo>
                         <h1 id="hrValue" class="text-2xl">0</h1>
                     </div>
                     <h1>Heart Rate</h1>
                 </div>
-                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl">
+                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl hover:scale-110">
                     <div class="flex flex-row gap-6 items-center">
                         <x-icon.spo-logo class="text-black w-12"></x-icon.spo-logo>
                         <h1 id="spoValue" class="text-2xl">0</h1>
                     </div>
                     <h1>SPO2</h1>
                 </div>
-                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl">
+                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl hover:scale-110">
                     <div class="flex flex-row gap-6 items-center">
                         <x-icon.gsr-logo class="text-black w-12"></x-icon.gsr-logo>
                         <h1 id="gsrValue" class="text-2xl">0</h1>
                     </div>
                     <h1>GSR</h1>
                 </div>
-                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl">
+                <div class="bg-gray-200 p-8 w-1/5 rounded-2xl flex flex-col justify-center items-center gap-4 shadow-xl hover:scale-110">
                     <div class="flex flex-row gap-6 items-center">
                         <x-icon.blood-logo class="text-black w-12"></x-icon.blood-logo>
                         <h1 id="brValue" class="text-2xl">0</h1>

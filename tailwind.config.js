@@ -14,10 +14,13 @@ export default {
             sans: ['"TT Commons Pro"', 'sans-serif'],
         },
         extend: {
-            
             colors:{
                 color1:"#D8E6ED",
+            },
+            maxHeight:{
+                '128':'32rem',
             }
+
         },
 
     },
