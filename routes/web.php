@@ -24,7 +24,9 @@ Route::middleware('auth')->group(function () {
     Route::get('/riwayat_monitoring', [MonitoringRecordController::class, 'index'])->name('riwayat_monitoring');
     Route::view('/riwayat_gejala_awal', 'riwayat_gejala_awal')->name('riwayat_gejala_awal');
     Route::view('/bantuan', 'bantuan')->name('bantuan');
-    Route::post('/sync-data', [SyncController::class, 'syncData']);
+    Route::middleware(['cors'])->group(function (){
+       Route::post('/sync-data', [SyncController::class, 'syncData']); 
+    });
     // Route::post('/sync-data', 'SyncController@syncData');
 });
 
