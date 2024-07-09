@@ -145,7 +145,7 @@ function startGraphUpdate() {
             // keterangan.textContent = ketValue;
             // Update the chart
             chart.update();
-            axios.post('https://monitoringapps.test/sync-data', { data })
+            axios.post("/sync-data", { data })
                 .then(response => {
                     console.log('Data synchronized successfully:', response.data);
                 })

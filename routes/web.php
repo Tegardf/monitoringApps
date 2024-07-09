@@ -25,7 +25,7 @@ Route::middleware('auth')->group(function () {
     Route::view('/riwayat_gejala_awal', 'riwayat_gejala_awal')->name('riwayat_gejala_awal');
     Route::view('/bantuan', 'bantuan')->name('bantuan');
     Route::middleware(['cors'])->group(function (){
-       Route::post('/sync-data', [SyncController::class, 'syncData']); 
+       Route::post('/sync-data', [SyncController::class, 'syncData'])->name('syncData'); 
     });
     // Route::post('/sync-data', 'SyncController@syncData');
 });
